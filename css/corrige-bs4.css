@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poiret One', cursive;
+}
+
+/*
+    Header de page
+*/
+
+.bg-red {
+    background-color: #E74C3C;
+}
+
+/*
+    section #home
+*/
+
+.hero {
+    background-image: url(../images/carrousel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    min-height: 470px;
+}
+
+.hero .img-logo {
+    width: 170px;
+}
+
+.btn-hero {
+    min-width: 300px;
+    padding: 10px 30px;
+}
+
+.btn-primary {
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+    
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #FB695A;
+    border-color: #FB695A;
+    box-shadow: 0 0 0 0.2rem rgba(231, 77, 60, 0.3);
+}
+
+.btn-secondary {
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+    
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #3a5570;
+    border-color: #3a5570;
+    box-shadow: 0 0 0 0.2rem rgba(58, 85, 112, 0.3);
+}
+
+.btn-info {
+    background-color: #007bff;
+    border-color: #007bff;
+    
+}
+
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:focus,
+.btn-info:hover {
+    background-color: #268fff;
+    border-color: #268fff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.3);
+}
+
+/* contact */
+
+.bg-section-contact {
+    background-color: #2C3E50;
+}
+
+/* footer */
+
+.btn-top {
+    display: block;
+    background-color: #E74C3C;
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+    margin: -26px auto 0;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn-top:focus,
+.btn-top:hover,
+.btn-top:active {
+    color: #fff;
+    background-color: #FB695A;;
+}

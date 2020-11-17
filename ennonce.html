@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liberty - Responsive One Page Template</title>
+  <!-- TP final : 
+      Transformez la maquette graphique en fichiers HTML et CSS 
+      Le template à créer est fourni dans le dossier : liberty.xd
+      Les éléments graphiques (images et fonts) sont fournis dans le dossier 'assets'
+   -->
+
+   <!-- inclure les polices Google Font : Roboto (regular, medium) et Poiret One (regular) -->
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto:400,500&display=swap" rel="stylesheet">
+
+  <!--inclure la css bootstrap ici-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- inclure le script de fontawesome ici-->
+  <script src="https://kit.fontawesome.com/d9520855dc.js" crossorigin="anonymous"></script>
+
+  <!-- inclure votre propre css ici-->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+
+  <!-- Créer le code du template ici -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-red text-uppercase">
+      <a class="navbar-brand" href="#top">Liberty</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Our works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+        
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="container-fluid home">
+      <img class="img-logo" src="./images/logo.png" alt="Logo Liberty">
+     <!-- my-3 marging-top et bottom-->
+      <h1 class="text-center text-uppercase  text-white my-3">Hello We are Liberty<br>
+        We do amazing things everyday</h1>
+
+        <a href="#contact" class="btn btn-primary rounded-pill text-uppercase text-center btn-home">Contact-us</a>
+    </section><!-- ./home -->
+    <!-- ./home -->
+    <!-- pt-5 padding-top-->
+    <section id="work" class="container pt-5">
+      <!-- py-3 padding-top et bottom-->
+      <div class="row py-5">
+        <div  class="offset-lg-3 col-lg-6 text-center">
+          <h2 class="h1 text-uppercase">OUR WORK</h2>
+          <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium id placeat tempore, officia illo dignissimos omnis non eius quos
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-1.jpg" alt="img-1">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-2.jpg" alt="img-2">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-3.jpg" alt="img-3">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-4.jpg" alt="img-4">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-5.jpg" alt="img-5">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-6.jpg" alt="img-6">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-7.jpg" alt="img-7">
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          <img class="img-fluid" src="./images/img-8.jpg" alt="img-8">
+        </div>
+      </div>
+    </section><!-- ./work -->
+        <section id="pricing" class="container py-5">
+      <div class="row py-5">
+        <div class="offset-lg-3 col-lg-6 text-center">
+          <h2 class="h1 text-uppercase">Pricing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          
+          <div class="card">
+            <div class="card-header py-4">
+              <h3 class="h2 mb-0">Bronze</h3>
+              <p class="mb-0">5$ / Month</p>
+            </div>
+            <div class="card-body pt-1 px-4 pb-4">
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">1 Account</li>
+                <li class="list-group-item">1 Project</li>
+                <li class="list-group-item">50K API Access</li>
+                <li class="list-group-item">50MB Storage</li>
+                <li class="list-group-item">Custom Cloud Services</li>
+                <li class="list-group-item">Weekly Reports</li>
+              </ul>
+
+              <a href="#" class="btn btn-secondary text-uppercase btn-block">Signup now</a>
+            </div>
+          </div><!-- /.card -->
+
+        </div><!-- /.col -->
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          
+          <div class="card">
+            <div class="card-header py-4">
+              <h3 class="h2 mb-0">Silver</h3>
+              <p class="mb-0">10$ / Month</p>
+            </div>
+            <div class="card-body pt-1 px-4 pb-4">
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">1 Account</li>
+                <li class="list-group-item">1 Project</li>
+                <li class="list-group-item">50K API Access</li>
+                <li class="list-group-item">50MB Storage</li>
+                <li class="list-group-item">Custom Cloud Services</li>
+                <li class="list-group-item">Weekly Reports</li>
+              </ul>
+          
+              <a href="#" class="btn btn-secondary text-uppercase btn-block">Signup now</a>
+            </div>
+          </div><!-- /.card -->
+
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          
+          <div class="card border-primary">
+            <div class="card-header bg-primary text-white py-4">
+              <h3 class="h2 mb-0">Gold</h3>
+              <p class="mb-0">20$ / Month</p>
+            </div>
+            <div class="card-body pt-1 px-4 pb-4">
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">1 Account</li>
+                <li class="list-group-item">1 Project</li>
+                <li class="list-group-item">50K API Access</li>
+                <li class="list-group-item">50MB Storage</li>
+                <li class="list-group-item">Custom Cloud Services</li>
+                <li class="list-group-item">Weekly Reports</li>
+              </ul>
+          
+              <a href="#" class="btn btn-info text-uppercase btn-block">Signup now</a>
+            </div>
+          </div><!-- /.card -->
+
+        </div>
+        <div class="col-md-6 col-lg-3 text-center mb-3">
+          
+          <div class="card">
+            <div class="card-header py-4">
+              <h3 class="h2 mb-0">Diamond</h3>
+              <p class="mb-0">35$ / Month</p>
+            </div>
+            <div class="card-body pt-1 px-4 pb-4">
+              <ul class="list-group list-group-flush mb-4">
+                <li class="list-group-item">1 Account</li>
+                <li class="list-group-item">1 Project</li>
+                <li class="list-group-item">50K API Access</li>
+                <li class="list-group-item">50MB Storage</li>
+                <li class="list-group-item">Custom Cloud Services</li>
+                <li class="list-group-item">Weekly Reports</li>
+              </ul>
+          
+              <a href="#" class="btn btn-secondary text-uppercase btn-block">Signup now</a>
+            </div>
+          </div><!-- /.card -->
+
+        </div>
+      </div>
+
+    </section><!-- ./pricing -->
+    <section id="contact" class="bg-section-contact pb-5">
+      <div class="container py-5 text-white">
+        <div class="row py-5">
+        <div class="offset-lg-3 col-lg-6 text-center">
+          <h2 class="h1 text-uppercase">Contact</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+       <form action="#" method="POST">
+          <div class="row pt-2 pb-5">
+            <div class="col-md-6">
+              <div class="form-group h-100">
+                <label class="sr-only" for="message">Your message:</label>
+                <textarea placeholder="message" class="h-100 form-control" name="message" id="message" cols="30" rows="5"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sr-only" for="name">Name:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="row">
+                <div class="col-9">
+                  <div class="form-group mb-0">
+                    <label class="sr-only" for="service">Service</label>
+                    <select name="service" id="service" class="form-control">
+                        <option value="">Select...</option>
+                        <option value="test">Test</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-primary btn-block text-uppercase">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section><!-- ./contact -->
+  </main>
+  <footer class="text-center">
+    <a class="btn-top" href="#top">
+      <i class="fas fa-angle-up fa-2x"></i>
+    </a>
+    <p class="mt-5 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <p>copyright wf3 - 2020</p>
+
+    <p class="mt-4 mb-5">
+        <a href="https://www.twitter.com" rel="no-follow" target="_blank">
+          <i class="fab fa-twitter text-primary fa-2x mx-2"></i>
+        </a>
+        <a href="https://www.facebook.com" rel="no-follow" target="_blank">
+          <i class="fab fa-facebook text-info fa-2x mx-2"></i>
+        </a>
+        <a href="https://www.youtube.com" rel="no-follow" target="_blank">
+          <i class="fab fa-youtube text-danger fa-2x mx-2"></i>
+        </a>
+    </p>
+  </footer>
+
+  <!-- garder ce code en fin de body : -->
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+  <!-- placer les autres scripts de bootstrap (sauf jquery qui est déjà présent ici) -->
+
+
+  <!-- NE PAS SUPPRIMER -- scripts pour le scroll animé dans la page -- NE PAS SUPPRIMER -->
+  <script>
+    $( document ).ready( function () {
+      $( 'a[href*="#"]' ).on( 'click', function () { // Au clic sur un élément
+        var page = $( this ).attr( 'href' ); // Page cible
+        var speed = 500; // Durée de l'animation (en ms)
+        $( 'html, body' ).animate( {
+          scrollTop: $( page ).offset().top
+        }, speed, 'swing' ); // Go
+        return false;
+      } );
+    } );
+  </script>
+</body>
+</html>
